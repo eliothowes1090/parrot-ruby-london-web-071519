@@ -5,5 +5,6 @@ require "pry"
 
 def parrot(phrase = "Squwark!")
   puts phrase
+  return
   binding.pry
 end
